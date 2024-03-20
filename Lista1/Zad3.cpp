@@ -49,6 +49,7 @@ float upF(int n)
 
     return result;
 }
+
 int main()
 {
     cout << "****************PODPUNKT A****************" << endl;
@@ -62,5 +63,7 @@ int main()
     cout << "Roznica n=100: " << downF(100) - upF(100) << endl;
     cout << "Roznica n=100: " << upF(100000) - downF(100000) << endl;
     cout << "Roznica n=100: " << upF(100000000) - downF(100000000) << endl;
+
     return 0;
+
 }
