@@ -106,6 +106,9 @@
    <addaction name="action_O_programie"/>
   </widget>
   <action name="action_Koniec">
+   <property name="icon">
+    <iconset theme="application-exit"/>
+   </property>
    <property name="text">
     <string>&amp;Koniec</string>
    </property>
@@ -114,6 +117,9 @@
    </property>
   </action>
   <action name="action_O_programie">
+   <property name="icon">
+    <iconset theme="accessories-text-editor"/>
+   </property>
    <property name="text">
     <string>&amp;O programie</string>
    </property>
