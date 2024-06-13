@@ -71,3 +71,4 @@ void MyWidget::toggle_animation()
         emit updateButtonIcon(QIcon(":/img/media-playback-stop.png"));
     }
 }
+//

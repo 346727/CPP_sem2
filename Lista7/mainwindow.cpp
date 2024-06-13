@@ -65,3 +65,5 @@ void MainWindow::on_action_O_programie_triggered()
 {
  QMessageBox::aboutQt(this,"O wspaniałym programie");
 }
+
+//

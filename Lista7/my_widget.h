@@ -28,3 +28,4 @@ class MyWidget : public QWidget
 };
 
 #endif  // MYWIDGET_H
+//
