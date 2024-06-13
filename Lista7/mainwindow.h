@@ -17,10 +17,14 @@ public:
 
 public slots:
     void koniec_programu();
+    void togglePlayPause();
 private slots:
     void on_action_O_programie_triggered();
 
 private:
     Ui::MainWindow *ui;
+    bool isPlaying;
+    void updateButtonIcon();
 };
 #endif // MAINWINDOW_H
+//
